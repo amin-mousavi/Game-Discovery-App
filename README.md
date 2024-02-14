@@ -2,7 +2,7 @@
 
 ## Game discovery app
 
-game discovery app is a web app that helps you find new games to play.you can search for games by platform, genre, and more.
+Game Discovery app is a web app that helps you find new games to play. You can search for games by platform, genre, and more.
 
 ### Features:
 
@@ -11,7 +11,7 @@ game discovery app is a web app that helps you find new games to play.you can se
 ##### Here's features included in this project
 
 - Finds new games
-- Search for games by genre, platform and etc
+- Search for games by genre, platform etc
 - Dark mode
 - Responsive design
 
@@ -23,7 +23,7 @@ game discovery app is a web app that helps you find new games to play.you can se
 2. TypeScript
 3. Vite dev tool
 4. Chakra UI
-5. axios
+5. Axios
 
 ---
 
