@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Game discovery app by React + TypeScript + Vite
 
 ### Features:
@@ -23,6 +24,37 @@
 
 ---
 
+=======
+# Game discovery app by React + TypeScript + Vite
+
+## Game discovery app
+
+game discovery app is a web app that helps you find new games to play.you can search for games by platform, genre, and more.
+
+### Features:
+
+---
+
+##### Here's features included in this project
+
+- Finds new games
+- Search for games by genre, platform and etc
+- Dark mode
+- Responsive design
+
+### Technologies Used:
+
+---
+
+1. React.js
+2. TypeScript
+3. Vite dev tool
+4. Chakra UI
+5. axios
+
+---
+
+>>>>>>> 8e5f152 (Editing README.md file)
 ## Getting Started
 
 To get started with GameHub, follow these steps:
