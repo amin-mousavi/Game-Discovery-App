@@ -1,4 +1,8 @@
-## Game discovery app by React + TypeScript + Vite
+# Game discovery app by React + TypeScript + Vite
+
+## Game discovery app
+
+game discovery app is a web app that helps you find new games to play.you can search for games by platform, genre, and more.
 
 ### Features:
 
