@@ -18,8 +18,8 @@ const useGames = (gameQuery: GameQuery) =>
     queryFn: async ({ pageParam = 1 }) => {
       const res = await apiClient.get<FetchedResponse<Game>>("/games", {
         params: {
-          genres: gameQuery.genre?.id,
-          parent_platforms: gameQuery.platform?.id,
+          genres: gameQuery.genreId,
+          parent_platforms: gameQuery.platformId,
           ordering: gameQuery.sortOrder,
           search: gameQuery.searchTerm,
           page: pageParam,
