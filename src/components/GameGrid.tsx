@@ -24,8 +24,8 @@ const GameGrid = ({ gameQuery }: Props) => {
 
   return (
     <>
-      {error && <Text>{error}</Text>}
-      {games.length === 0 && !isLoading && (
+      {error && <Text>{error.message}</Text>}
+      {games?.results.length === 0 && !isLoading && (
         <Alert status="error" marginY={10} borderRadius={10} width="20%">
           <AlertIcon />
           <AlertTitle>Games not found!</AlertTitle>
@@ -42,7 +42,7 @@ const GameGrid = ({ gameQuery }: Props) => {
               <GameCardSkeleton />
             </GameCardContainer>
           ))}
-        {games.map((game) => (
+        {games?.results.map((game) => (
           <GameCardContainer key={game.id}>
             <GameCard game={game} />
           </GameCardContainer>
