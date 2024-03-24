@@ -1,6 +1,6 @@
 # Game discovery app by React + TypeScript + Vite
 
-<a href="https://game-discovery-app-nine.vercel.app/">## Game discovery app live dem0</a>
+<a href="https://game-discovery-app-nine.vercel.app/">Game discovery app live demo</a>
 
 Game Discovery app is a web app that helps you find new games to play. You can search for games by platform, genre, and more.
 
